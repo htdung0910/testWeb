@@ -1,0 +1,27 @@
+.row-dragging {
+  background: rgb(48, 46, 46);
+  border: 1px solid #ccc;
+}
+
+.row-dragging td {
+  padding: 16px;
+  visibility: visible;
+}
+
+.row-dragging .drag-visible {
+  visibility: visible;
+}
+
+.drag-visible {
+  visibility: visible;
+}
+
+.selectedRow {
+  background-color: rgb(26, 115, 218);
+  font-weight: bolder;
+  font-size: 1.2em;
+}
+
+.selectedPlaylistItem {
+  background-color: rgb(97, 161, 235);
+}

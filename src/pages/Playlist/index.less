@@ -1,0 +1,79 @@
+
+
+.drag {
+  :global {
+    .row-dragging {
+      background: rgb(48, 46, 46);
+      border: 1px solid #ccc;
+    }
+
+    .row-dragging td {
+      padding: 16px;
+      visibility: visible;
+    }
+
+    .row-dragging .drag-visible {
+      visibility: visible;
+    }
+  }
+}
+
+.rowDragging {
+  background: rgb(48, 46, 46);
+  border: 1px solid #ccc;
+}
+
+.rowDragging td {
+  padding: 16px;
+  visibility: visible;
+}
+
+.rowDragging .dragVisible {
+  visibility: visible;
+}
+
+.dragVisible {
+  :global {
+    .drag-visible {
+      visibility: visible;
+    }
+  }
+}
+
+.selectedRow {
+  background-color: rgba(49, 49, 49, 0.7);
+  font-size: 1.2em;
+  font-weight: bolder;
+  :global {
+    color: white;
+  }
+}
+
+.selectedPlaylistItem {
+  background-color: rgb(97, 161, 235);
+}
+
+.activeRow {
+
+  :hover {
+    background-color: rgb(68, 67, 67);
+  }
+}
+
+.activeRow :hover {
+  background-color: rgb(42, 44, 44);
+}
+.customRow {
+  color: rgb(41, 101, 190);
+  font-weight: bolder;
+  font-size: 1.2em;
+  :hover {
+    background-color: rgb(42, 44, 44);
+  }
+}
+
+.customeRow :hover {
+  background-color: rgb(42, 44, 44);
+}
+
+
